@@ -37,7 +37,7 @@ def responder(mensagem):
 
 @bot.message_handler(commands=["opcao3"])
 def responder(mensagem):
-    bot.send_message(mensagem.chat.id, "Valeu!!O lira mandou abraço de volta <3")
+    bot.send_message(mensagem.chat.id, "Valeu!!!O lira mandou abraço de volta <3")
 
 
 
